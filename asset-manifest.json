@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/chillbass/static/js/main.68ae8011.chunk.js",
+    "main.js.map": "/chillbass/static/js/main.68ae8011.chunk.js.map",
+    "runtime-main.js": "/chillbass/static/js/runtime-main.27c6faa0.js",
+    "runtime-main.js.map": "/chillbass/static/js/runtime-main.27c6faa0.js.map",
+    "static/js/2.ba1609e5.chunk.js": "/chillbass/static/js/2.ba1609e5.chunk.js",
+    "static/js/2.ba1609e5.chunk.js.map": "/chillbass/static/js/2.ba1609e5.chunk.js.map",
+    "index.html": "/chillbass/index.html",
+    "precache-manifest.1fcbdbc41ee0638c8096f1d75167327e.js": "/chillbass/precache-manifest.1fcbdbc41ee0638c8096f1d75167327e.js",
+    "service-worker.js": "/chillbass/service-worker.js",
+    "static/js/2.ba1609e5.chunk.js.LICENSE.txt": "/chillbass/static/js/2.ba1609e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27c6faa0.js",
+    "static/js/2.ba1609e5.chunk.js",
+    "static/js/main.68ae8011.chunk.js"
+  ]
+}
