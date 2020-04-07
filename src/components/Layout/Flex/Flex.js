@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import { calculatePadding } from '../../../utils/layout/calculatePadding'
+import boxShadow from '../../../utils/styling/boxShadow'
 
 export default styled.div`
 	display: flex;
@@ -66,6 +67,7 @@ export default styled.div`
 			styles.push('position: fixed')
 		}
 		if (props.relative) { styles.push('position: relative;') }
+		if (props.boxShadow) { styles.push(boxShadow) }
 	
 		return styles.join('\n')
 	}}

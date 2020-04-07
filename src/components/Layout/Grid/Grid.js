@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import { calculatePadding } from '../../../utils/layout/calculatePadding'
+import boxShadow from '../../../utils/styling/boxShadow'
 
 export default styled.div`
 	display: grid;
@@ -46,6 +47,7 @@ export default styled.div`
 		if (props.fullWidth) { styles.push('width: 100%;') }
 		if (props.fullHeight) { styles.push('height: 100vh;') }
 		if (props.borderBox) { styles.push('box-sizing: border-box;') }
+		if (props.boxShadow) { styles.push(boxShadow) }
 		return styles.join('\n')
 	}}
 
