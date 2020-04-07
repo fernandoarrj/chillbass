@@ -1,13 +1,13 @@
 export const calculateBorderRadius = props => {
 	if (props.borderRadiusMedium) {
-		return `padding: 15px;`
+		return `border-radius: 15px;`
 	}
 
 	if (props.borderRadiusLarge) {
-		return `padding: 30px;`
+		return `border-radius: 30px;`
 	}
 
 	if (props.borderRadiusSmall) {
-		return `padding: 5px;`
+		return `border-radius: 5px;`
 	}
 }
