@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
-import { calculatePadding } from '../../../utils/layout/calculatePadding'
 import boxShadow from '../../../utils/styling/boxShadow'
+import { calculateBorderRadius } from '../../../utils/layout/calculateBorderRadius'
+import { calculateMargin } from '../../../utils/layout/calculateMargin'
+import { calculatePadding } from '../../../utils/layout/calculatePadding'
 
 export default styled.div`
 	display: grid;
@@ -53,6 +55,14 @@ export default styled.div`
 
 	${ props => {
 		return calculatePadding(props)
+	}}
+
+	${ props => {
+		return calculateMargin(props)
+	}}
+
+	${props => {
+		return calculateBorderRadius(props)
 	}}
 `
 
