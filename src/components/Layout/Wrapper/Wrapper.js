@@ -28,6 +28,7 @@ export default styled.div`
 		const styles = []
 
 		if (props.fullHeight) { styles.push('height: 100vh;') }
+		if (props.fullWidth) { styles.push('width: 100%;') }
 
 		return styles.join('\n')
 	}}
